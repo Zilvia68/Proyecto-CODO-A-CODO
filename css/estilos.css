@@ -10,7 +10,9 @@
 header{
     background-color: rgb(199, 240, 240);
 }
-
+body{
+    text-align: center;
+}
 a{
     text-align: center;
 }
@@ -28,6 +30,7 @@ a{
 .pestañas{
     text-align: center ;
     font-size: 20px;
+    
  }  
  h4{
     padding-left: 30px;
@@ -38,7 +41,7 @@ a{
     padding-left: 30px;
     font-size: 20px;
     text-align: justify;
-    padding-right: 40%;
+    
  }  
 
 .nombre{
@@ -50,7 +53,7 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
     padding: 30px;
-     color: blue;
+     color: rgb(14, 141, 14);
      text-decoration: none;
    }
 .social{
@@ -59,8 +62,7 @@ a{
    
    footer{
     background-color: black;
-    
-
+    padding-bottom: 0px;
    
    }
    #pie{
@@ -69,3 +71,4 @@ a{
     padding-left: 50px;
     
    }
+   
