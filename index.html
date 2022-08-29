@@ -7,56 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viandas saludables</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="./imagenes/logo.png">
 </head>
 
 
 <body>
     <header>
-        <p class="nombre"><img src="./imagenes/logo.png" alt="logo"> Salud Viandah</p>
+        <div>
+            <img id="logo" src="./imagenes/logo.png" alt="logo">
+            <span class="nombre">Salud Viandah</span>
+        </div>
         <br><br>
-        <p class="pestañas"><a id="pestañas" href="index.html">Nosotros</a>
-            <a id="pestañas" href="promociones.html">Promociones</a>
-            <a id="pestañas" href="pedidos.html">Pedidos</a>
-            <a id="pestañas" href="recetas.html">Recetas</a>
-
+        <div class="pestañas">
+            <a href="index.html">Nosotros</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="pedidos.html">Pedidos</a>
+            <a href="recetas.html">Recetas</a>
+        </div>
     </header>
-    <br><br><br><br>
+
     <main>
+        <div style="text-align: center; margin-left: 5%; padding: 4%;">
+            <img class="imagenes1" src="./imagenes/ensaladaEspecial.jpg" alt="Ensalada Especial">
+            <img class="imagenes1" src="./imagenes/ensaladaDePalta.jpg" alt="Ensalada de palta">
+            <img class="imagenes1" src="./imagenes/ensaladaDeLangostinos.jpg" alt="Ensalada de langostinos">
+            <img class="imagenes1" src="./imagenes/paltaPolloYTomate.jpg" alt="Palta pollo y tomate">
+            <img class="imagenes1" src="./imagenes/salmonCon Verduras.jpg" alt="">
+        </div>
        <p id="slogan"> Disfruta una comida rica y saludable todos los días:</p>
     <br>
        <h4>Elaboramos platos caseros y saludables:</h4>
-       <br><br>
-    <p id="nosotros">Una alimentación sana nos brinda la oportunidad de desarrollarnos plenamente, de vivir con salud, de aprender y
-        trabajar mejor.<br> Sin embargo nuestro ritmo actual muchas veces no nos permite gozar de una buena alimentación.
-
+    <div>
+       <p id="nosotros">Una alimentación sana nos brinda la oportunidad de desarrollarnos plenamente, de vivir con salud, de aprender y
+        trabajar mejor.
+        Sin embargo nuestro ritmo actual muchas veces no nos permite gozar de una buena alimentación.
         Por eso, para poder comer rico y saludable en el día a día, ofrecémos una amplia variedad de viandas saludables.</p>
-    <br><br><br><br><br>
-    </main>
-    <footer>
-        <footer>
-            <p id="pie">Encontranos en:</p>
-            <br>
-            
-            <nav class="social">
-                
-                <a id="redes"   target="_blank" href="https://facebook.com">
-                    <img width="40px" src="./imagenes/facebook.png" alt="Facebook"></a>
-               
-                <a id="redes" target="_blank" href="https://www.instagram.com/">
-                    <img width="40px" src="./imagenes/instagram.png" alt="instagram"></a>
-              
-                <a id="redes" target="_blank" href="https://api.whatsapp.com/send?phone=0543874564252">
-                    <img width="40px" src="./imagenes/whatsapp.png" alt="whatsapp"> </a>
-                    <br>
-                    
-           
-                </nav>
-
-
-        </footer>
-
-    </footer>
+    </div>
 
 </body>
-
+<footer>
+    <p id="pie">Encontranos en:</p>
+    <nav class="social">
+        
+        <a target="_blank" href="https://facebook.com">
+            <img class="redes" src="./imagenes/facebook.png" alt="Facebook"></a>
+       
+        <a target="_blank" href="https://www.instagram.com/">
+            <img class="redes" src="./imagenes/instagram.png" alt="instagram"></a>
+      
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=0543874564252">
+            <img class="redes" src="./imagenes/whatsapp.png" alt="whatsapp"> </a>
+    </nav>
+</footer>
+</main>
 </html>
