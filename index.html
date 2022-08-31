@@ -7,64 +7,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viandas saludables</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="./imagenes/logo.png">
 </head>
 
 
 <body>
     <header>
-        <p class="nombre"><img src="./imagenes/logo.png" alt="logo"> Salud Viandah</p>
-        <br><br>
-        <p class="pestañas"><a id="pestañas" href="index.html">Nosotros</a>
-            <a id="pestañas" href="promociones.html">Promociones</a>
-            <a id="pestañas" href="pedidos.html">Pedidos</a>
-            <a id="pestañas" href="recetas.html">Recetas</a>
+        <div>
+            <img id="logo" src="./imagenes/logo.png" alt="logo">
+            <span class="nombre">Salud Viandah</span>
+            <br><br>
+        </div>
+        <div id="pestañas">
+            <a class="pest" href="index.html">Nosotros</a>
+            <a class="pest" href="menu.html">Menu</a>
+            <a class="pest" href="pedidos.html">Pedidos</a>
+            <a class="pest" href="recetas.html">Recetas</a>
+            <a class="pest" href="#contacto">Contacto</a>
 
+        </div>
     </header>
-    <br><br><br><br>
-    <main>
-        
-        <img  width="200px" height="200px"  src="./imagenes/ensalada especial.jpg" alt="Ensalada especial">
-        <img width="200px" height="200px" src="./imagenes/ensalada de langostinos.jpg" alt="Ensalada de langostinos">
-        <img width="200px" height="200px" src="./imagenes/pollo con pure.jpg" alt="Pollo con pure">
-        <img width="200px" height="200px" src="./imagenes/salmon con verduras.jpg" alt="Salmon con verduras">
-     
-        <p id="slogan"> Disfruta una comida rica y saludable todos los días:</p>
-    <br>
-       <h4>Elaboramos platos caseros y saludables:</h4>
-       <br><br>
-    <p id="nosotros">Una alimentación sana nos brinda la oportunidad de desarrollarnos plenamente, de vivir con salud, de aprender y
-        trabajar mejor.<br> Sin embargo nuestro ritmo actual muchas veces no nos permite gozar de una buena alimentación.
-
-        Por eso, para poder comer rico y saludable en el día a día, ofrecémos una amplia variedad de viandas saludables.
-        </p>
-       
     <br><br>
-    </main>
-    <footer>
-        <footer>
-            <p id="pie">Encontranos en:</p>
+
+    <main>
+
+        <div id="imagenes">
+
+            <img class="imagenes1" src="./imagenes/ensaladaEspecial.jpg" alt="Ensalada Especial">
+            <img class="imagenes1" src="./imagenes/ensaladaDePalta.jpg" alt="Ensalada de palta">
+            <img class="imagenes1" src="./imagenes/ensaladaDeLangostinos.jpg" alt="Ensalada de langostinos">
+            <img class="imagenes1" src="./imagenes/salmonConVerduras.jpg" alt="Salmon con verduras">
+
+        </div>
+        <br><br>
+        <p id="slogan"> Disfruta una comida rica y saludable todos los días:</p>
+        <br>
+        <h4>Elaboramos platos caseros y saludables:</h4>
+        <div>
+            <p class="nosotros">Una alimentación sana nos brinda la oportunidad de desarrollarnos plenamente, de vivir
+                con
+                salud, de aprender y
+                trabajar mejor.
+                Sin embargo nuestro ritmo actual muchas veces no nos permite gozar de una buena alimentación.
+                Por eso, para poder comer rico y saludable en el día a día, ofrecémos una amplia variedad de viandas
+                saludables.</p>
             <br>
-            
-            <nav class="social">
-                
-                <a id="redes"   target="_blank" href="https://facebook.com">
-                    <img width="40px" src="./imagenes/facebook.png" alt="Facebook"></a>
-               
-                <a id="redes" target="_blank" href="https://www.instagram.com/">
-                    <img width="40px" src="./imagenes/instagram.png" alt="instagram"></a>
-              
-                <a id="redes" target="_blank" href="https://api.whatsapp.com/send?phone=0543874564252">
-                    <img width="40px" src="./imagenes/whatsapp.png" alt="whatsapp"> </a>
-                    <br>
-                    
-           
-                </nav>
-
-
-        </footer>
-
-    </footer>
-
+            <p class="nosotros">En la seccion <a href="recetas.html">recetas</a>, te dejamos ideas sencillas para
+                organizarte la semana sin complicaciones. Platos ricos y equilibrados para todos los
+                días</p>
+        </div>
+    </main>
 </body>
+<br><br><br><br><br>
+<footer id="contacto">
+    <p id="pie">Encontranos en:</p>
+    <br>
+    <div class="iframe">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6044973447497!2d-58.38050078459158!3d-34.61416126555798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad662f16055%3A0xc31614b6852ae376!2sVenezuela%20852%2C%20C1095AAR%20CABA!5e0!3m2!1ses-419!2sar!4v1661813418345!5m2!1ses-419!2sar"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="caja-redes">
+        <nav class="social"></nav>
+        <a target="_blank" href="https://facebook.com">
+            <img class="redes" src="./imagenes/facebook.png" alt="Facebook"></a>
+
+        <a target="_blank" href="https://www.instagram.com/">
+            <img class="redes" src="./imagenes/instagram.png" alt="instagram"></a>
+
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=0543874564252">
+            <img class="redes" src="./imagenes/whatsapp.png" alt="whatsapp"> </a>
+    </div>
+    </nav>
+</footer>
+</main>
 
 </html>
