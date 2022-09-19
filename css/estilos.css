@@ -9,52 +9,47 @@
 }
 header{
     background-color: rgb(199, 240, 240);
+   
 }
 
 a{
     text-align: center;
 }
- .redes{
-    padding-inline: 2%;
-    align-content: center;
-    margin-top: 1%;
-    width: 5%; 
+ 
 
- } 
+ 
  #slogan{
    font-family: Helena;
-   font-size: 10vw;
-   color: rgb(61, 173, 61);
-   padding-left: 0%;
-   text-align: center;
+   font-size: 5vw;
+   color: rgb(26, 163, 26);
+   padding-left: 2%;
+   
  }
 
 .pestañas{
     text-align: center ;
-    font-size: 3vw;
+    font-size: 2.5vw;
  }
 
  h4{
     padding: 1%;
-    font-size: 4vw;
-    text-align: center;
+    font-size: 2.5vw;
+    padding-left: 2%;
  } 
 
- #nosotros{
+ .nosotros{
     padding: 2%;
-    font-size: 3vw;
+    font-size: 1.5vw;
     text-align: justify;
 
  }  
 
 .nombre{
-    text-align:right;
+   
     font-family: helena;
-    font-size: 11vw;
-    text-align: center;
-    float:right;
-    margin-right: 27%;
-    margin-top: 2%;
+    font-size: 8vw;
+    font-weight: 100;
+    margin-right: 10%;
 }
 
  #pestañas{
@@ -62,32 +57,218 @@ a{
     padding: 1%;
     color: blue;
     text-decoration: none;
+    text-align: center;
+    margin-right: 10%;
+}
+.pest{
+    color: rgb(34, 185, 34);
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-decoration: none;
+    padding: 3%;
 }
 
 .social{
     text-align: center;
-}
-   
-footer{
-    background-color: black;
-    width: 100vw;
-    padding: 1%;
-}
-   #pie{
-    color: white;
-    font-size: 3vw;
-    padding-left: 5%;
     
+ 
+}
+
+#pie{
+    color: white;
+    font-size: 2vw;
+    padding-left: 0%;
+    float: left;
 }
 
 #logo{
-    align-content: center;
-    margin: 1%;
-    margin-left: 1%;
-    width: 10%;   
+ 
+    margin-top: 0%;
+    margin-left: 5%;
+    width: 8%; 
+    padding-right: 0%;
+    float: left;
+}
+#imagenes{
+    text-align: center;
 }
 
 .imagenes1{
-    width: 15%;
-    padding-inline: 1%;   
+    width: 20%;
+    padding-inline: 2%;   
+}
+.redes{
+    padding: 2% 5% 1% 0%;
+    margin-top: 0% 0% 0% 0%;
+    width: 4%;
+}
+
+.iframe{
+    margin-left: 4%;
+    display: inline;
+    float: left;
+}
+.caja-redes{
+    text-align: center;
+    margin: 0% 8% 0% 0%;
+    padding: 0%;
+}
+
+ table td{   
+ border: 2px solid black;
+ }
+  table {
+   width: 45%;
+   
+
+}
+table th{
+    font-size: 3vw;
+}
+table td:nth-child(1){
+    width: 10%;
+    font-size: 2vw;
+    text-align: center;
+}
+table td:nth-child(2){
+    width: 10%;
+    text-align: center;
+}
+table td:nth-child(3){
+    width: 25%;
+     font-size: 1.5vw;
+   
+   
+}
+
+.ordenar{
+    text-align: right;
+}
+.imagenesMenu{
+    justify-content: center; 
+    border-radius: 100px;
+    padding: 5%;
+}
+
+.platos{
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+#menu{
+    position: relative;
+    font-family: helena;
+    font-size:15vh;
+    margin: -3% 30% 0% 30%;
+    background:white;
+    font-weight: 100;
+    padding: 0% 0% 0% 0%;
+}
+
+.tarjetaMenu{
+    border-width: 10px;
+    border-radius: 0.5vw;
+    border-color: black;
+    max-width:550px;
+    margin: 1% 1% 1% 1%;
+    background-color: rgb(199, 240, 240);
+}
+
+.imagenesTarjetas{
+    border-top-left-radius: 0.5vh;
+    border-bottom-left-radius: 0.5vh;
+    max-height: 150px;
+    padding:0%;
+    float: left;
+}
+
+.titulosTarjetas{
+    font-family: Cambria;
+    font-size: 100%;
+    text-align: left;
+    margin-left: 10%;
+    padding: 2% 0% 0% 0%;
+    position: relative;
+    float: left
+}
+
+.parrafosTarjetas{
+    font-family: Cambria;
+    font-size: 70%;
+    text-align: left;
+    margin: -3% 0% 0% 0%;
+}
+
+.precio{
+    font-family: Cambria;
+    font-size: 60%;
+    font-style:italic;
+    margin: 2% 0% 0% 5%;
+    float: left;
+}
+
+.botonOrdenar{
+    
+    font-family:sans-serif;
+    color: white;
+    background-color: blue;
+    border-color: white;
+    border-radius: 0.3vw;
+    margin: 2% 0% 0% 19%;
+    padding: 1% 2% 1% 2%;
+    opacity: 80%;
+}
+
+#columna1{
+    position: relative;
+    width:50%;
+    height: 97.6%;
+    margin-right: 27%;
+}
+
+#marcoMenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid black;
+    padding: 3.5% 0% 0% 0%;
+    margin: -4.5% 0% 0% 0%;
+    z-index: 1;
+}
+
+.imagenesDerechaMenu{
+    max-width: 220px;
+    margin: 2% 0% 1% 35%;
+    border-radius: 40%; 
+}
+#abajo{
+    background-color: black;
+
+}
+
+/* CSS para Grid -----------------------*/
+
+.item1 { grid-area: header; }
+.item2 { grid-area: izquierda; }
+.item3 { grid-area: main; }
+.item4 { grid-area: derecha; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'izquierda main main main main derecha'
+    'footer footer footer footer footer footer';
+  gap: 2%;
+  grid-template-columns: 1% auto auto auto auto 1%;
+  padding: 0px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
