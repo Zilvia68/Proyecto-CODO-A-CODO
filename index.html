@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,23 +13,26 @@
 
 <body>
     <header>
-        <div>
-            <img id="logo" src="./imagenes/logo.png" alt="logo">
-            <span class="nombre">Salud Viandah</span>
-            <br><br>
-        </div>
-        <div id="pestañas">
-            <a class="pest" href="index.html">Nosotros</a>
-            <a class="pest" href="menu.html">Menu</a>
-            <a class="pest" href="pedidos.html">Pedidos</a>
-            <a class="pest" href="recetas.html">Recetas</a>
-            <a class="pest" href="#contacto">Contacto</a>
-
-        </div>
+        <div class="grid-container">
+            <div class="item1" style="background-color: rgb(199, 240, 240)">
+                <div>
+                    <img id="logo" src="./imagenes/logo.png" alt="logo">
+                    <h3 class="nombre">Salud Viandah
+                    </h3>
+                </div>
+                <div id="pestañas">
+                    <a class="pest" href="index.html">Nosotros</a>
+                    <a class="pest" href="menu.html">Menu</a>
+                    <a class="pest" href="pedidos.html">Pedidos</a>
+                    <a class="pest" href="promociones.html">Promociones</a>
+                    <a class="pest" href="#contacto">Contacto</a>
+                </div>
+            </div>
     </header>
-    <br><br>
+    
 
     <main>
+        <br>
 
         <div id="imagenes">
 
@@ -39,7 +42,7 @@
             <img class="imagenes1" src="./imagenes/salmonConVerduras.jpg" alt="Salmon con verduras">
 
         </div>
-        <br><br>
+        <br>
         <p id="slogan"> Disfruta una comida rica y saludable todos los días:</p>
         <br>
         <h4>Elaboramos platos caseros y saludables:</h4>
@@ -59,27 +62,23 @@
     </main>
 </body>
 <br><br><br><br><br>
-<footer id="contacto">
-    <div id="abajo">
-        <p id="pie">Encontranos en:</p>
-        <br>
-        <div class="iframe">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6044973447497!2d-58.38050078459158!3d-34.61416126555798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad662f16055%3A0xc31614b6852ae376!2sVenezuela%20852%2C%20C1095AAR%20CABA!5e0!3m2!1ses-419!2sar!4v1661813418345!5m2!1ses-419!2sar"
-                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="caja-redes">
-            <nav class="social"></nav>
-            <a target="_blank" href="https://facebook.com">
-                <img class="redes" src="./imagenes/facebook.png" alt="Facebook"></a>
+ <footer id="contacto">
+     <div id="abajo">
+         <p id="pie">Encontranos en:</p>
+         <div class="caja-redes">
+             <a href="">
+                 <img class=redes src="./imagenes/mapa.png" alt="Mapa"></a>
 
-            <a target="_blank" href="https://www.instagram.com/">
-                <img class="redes" src="./imagenes/instagram.png" alt="instagram"></a>
+             <a target="_blank" href="https://facebook.com">
+                 <img class="redes" src="./imagenes/facebook.png" alt="Facebook"></a>
 
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=0543874564252">
-                <img class="redes" src="./imagenes/whatsapp.png" alt="whatsapp"> </a>
-        </div>
+             <a target="_blank" href="https://www.instagram.com/">
+                 <img class="redes" src="./imagenes/instagram.png" alt="instagram"></a>
 
-</footer>
+             <a target="_blank" href="https://api.whatsapp.com/send?phone=0543874564252">
+                 <img class="redes" src="./imagenes/whatsapp.png" alt="whatsapp"></a>
+         </div>
+ </footer>
+
+
 </html>

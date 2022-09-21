@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,70 +13,71 @@
 
 <body>
     <header>
-        <div>
-            <img id="logo" src="./imagenes/logo.png" alt="logo">
-            <span class="nombre">Salud Viandah</span>
-            <br><br>
+        <div class="grid-container">
+            <div class="item1" style="background-color: rgb(199, 240, 240)">
+                <div>
+                    <img id="logo" src="./imagenes/logo.png" alt="logo">
+                    <h3 class="nombre">Salud Viandah
+                    </h3>
+                </div>
+                <div id="pestañas">
+                    <a class="pest" href="index.html">Nosotros</a>
+                    <a class="pest" href="menu.html">Menu</a>
+                    <a class="pest" href="pedidos.html">Pedidos</a>
+                    <a class="pest" href="promociones.html">Promociones</a>
+                    <a class="pest" href="#contacto">Contacto</a>
+                </div>
+            </div>
         </div>
-        <div id="pestañas">
-            <a class="pest" href="index.html">Nosotros</a>
-            <a class="pest" href="menu.html">Menu</a>
-            <a class="pest" href="pedidos.html">Pedidos</a>
-            <a class="pest" href="recetas.html">Recetas</a>
-            <a class="pest" href="#contacto">Contacto</a>
-
-        </div>
-    </header>
-    <br><br>
-
+    </header>   
     <main>
-<h1>Podes encargarnos las mejores ensaladas de la Capital</h1>
-<form action="https://formsubmit.co/manugonzo1111@gmail.com" method="post">
-    <label for="name">Nombre:</label>
-    <input type="text" name="name" id="name"><br>
-    <label type="mail">Email:</label>
-    <input size="40" type="email" name="mail" id="mail"><br>
-    <label for="phone">Teléfono:</label>
-    <input heigh="50" weigh="50" type="text" name="message" id="message"><br>
-    <label type="text">Calle:</label>
-    <input type="text" name="street" id="street">*<br>
-    <h6>*Recordá que los envíos son sólo dentro de CABA</h6>
-    <label for="number">Número:</label>
-    <input type="number" name="number1" id="number1"><br>
-    <label type="text">Dpto:</label>
-    <input type="text" name="dpto" id="dpto"><br>
-    <label for="menus">Menúes:</label>
-    <select name="menus" id="menus">
-        <option value="0"></option>
-        <option value="1">Ensalada de Langostinos</option>
-        <option value="2">Ensalada de Palta</option>
-        <option value="3">Salmón con Verduras</option>
-        <option value="4">Ensalada Especial</option>
-    </select><br><br><br>
-    <button type="submit">ENVIAR </button><br>
-    <input type="reset" value="Limpiar Campos"><br>
+        <br><br>
+<div class="form">
+    <h2>Completa el formulario y hacenos tu pedido</h2><br><br><br>
+        <form action="https://formsubmit.co/manugonzo1111@gmail.com" method="post">
+            <label for="Nombre">Nombre:</label>
+            <input size="37" type="text" name="Nombre" id="Nombre"><br><br>
+            <label for="Apellido">Apellido:</label>
+            <input size="37" type="text" name="Apellido" id="Apellido"><br><br>
+            <label type="email">Email:</label>
+            <input size="40" type="email" name="email" id="email"><br><br>
+            <label for="phone">Teléfono:</label>
+            <input size="37" type="number"  name="Teléfono" id="num.teléfono"><br><br>
+            <label for="text">Mensaje:</label>
+            <input heigh="100" weigh="100" type="text" name="numero de teléfono" id="message"><br><br>
+            <label type="text">Calle:</label>
+            <input size="40"type="text" name="Calle" id="Calle">*<br><br>
+            <h5>*Recordá que los envíos son sólo dentro de CABA</h5><br>
+            <label for="number">Número:</label>
+            <input size="25" type="number" name="Altura" id="altura"><br><br>
+            <label type="text">Dpto:</label>
+            <input size="25" type="text" name="dpto" id="dpto"><br><br>
+            <label for="menus">Menúes:</label>
+            <select name="menus" id="opc.menu">
+                <option value="0"></option>
+                <option value="1">Ensalada de Langostinos</option>
+                <option value="2">Ensalada de Palta</option>
+                <option value="3">Salmón con Verduras</option>
+                <option value="4">Ensalada Especial</option>
+            </select><br><br><br>
+            <button type="submit">ENVIAR </button><br>
+            <input type="reset" value="Limpiar Campos"><br>
     
-</form>
-
-
-
+    </form>
+   </div>
+<br><br><br><br><br>
     </main>
 
 
 </body>
-<br><br><br><br><br>
+
 <footer id="contacto">
     <div id="abajo">
         <p id="pie">Encontranos en:</p>
-        <br>
-        <div class="iframe">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6044973447497!2d-58.38050078459158!3d-34.61416126555798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad662f16055%3A0xc31614b6852ae376!2sVenezuela%20852%2C%20C1095AAR%20CABA!5e0!3m2!1ses-419!2sar!4v1661813418345!5m2!1ses-419!2sar"
-                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
         <div class="caja-redes">
-            <nav class="social"></nav>
+            <a href="">
+                <img class=redes src="./imagenes/mapa.png" alt="Mapa"></a>
+
             <a target="_blank" href="https://facebook.com">
                 <img class="redes" src="./imagenes/facebook.png" alt="Facebook"></a>
 
@@ -84,11 +85,9 @@
                 <img class="redes" src="./imagenes/instagram.png" alt="instagram"></a>
 
             <a target="_blank" href="https://api.whatsapp.com/send?phone=0543874564252">
-                <img class="redes" src="./imagenes/whatsapp.png" alt="whatsapp"> </a>
+                <img class="redes" src="./imagenes/whatsapp.png" alt="whatsapp"></a>
         </div>
 
-</footer>
 
-</main>
 
 </html>
