@@ -63,6 +63,7 @@ a{
     font-size: 8vw;
     font-weight: 100;
     margin-right: 10%;
+    
 }
 
  #pestañas{
@@ -90,6 +91,7 @@ a{
     padding-right: 0%;
     float: left;
 }
+
 #imagenes{
     text-align: center;
 }
@@ -133,12 +135,15 @@ a{
 
 
  table th {
-     font-size: 2vw;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 30px;
  }
 
  table td {
      border: 2px solid rgb(36, 207, 193);
-     font-size: 1em;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 30px;
+     
      
 
  }
@@ -146,7 +151,8 @@ a{
  table td:first-child {
      width: 10%;
      text-align: center;
-     font-size: 1.5vw;
+     font-size: 2em;
+     
  }
 
  table td:nth-child(2) {
@@ -156,7 +162,8 @@ a{
 
  table td:nth-child(3) {
      width: 25%;
-     font-size: 1.5;
+     font-size: 1.5em;
+     
  }
 
  table td img {
@@ -198,8 +205,9 @@ a{
 .tarjetaMenu{
     border-width: 10px;
     border-radius: 0.5vw;
-    border-color: black;
-    max-width:550px;
+    border: solid 1px;
+    width:45%;
+    height: 150px;
     margin: 1% 1% 1% 1%;
     background-color: rgb(199, 240, 240);
 }
@@ -207,34 +215,36 @@ a{
 .imagenesTarjetas{
     border-top-left-radius: 0.5vh;
     border-bottom-left-radius: 0.5vh;
-    max-height: 150px;
+    height: 150px;
     padding:0%;
     float: left;
+    width: 150px;
 }
 
 .titulosTarjetas{
-    font-family: Cambria;
-    font-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80%;
     text-align: left;
     margin-left: 10%;
     padding: 2% 0% 0% 0%;
     position: relative;
-    float: left
+   
 }
 
 .parrafosTarjetas{
-    font-family: Cambria;
-    font-size: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 65%;
     text-align: left;
     margin: -3% 0% 0% 0%;
 }
 
 .precio{
-    font-family: Cambria;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 60%;
     font-style:italic;
     margin: 2% 0% 0% 5%;
     float: left;
+    
 }
 
 .botonOrdenar{
@@ -267,11 +277,7 @@ a{
     z-index: 1;
 }
 
-.imagenesDerechaMenu{
-    max-width: 220px;
-    margin: 2% 0% 1% 35%;
-    border-radius: 40%; 
-}
+
 #abajo{
     background-color: black;
 
@@ -302,6 +308,12 @@ a{
   padding: 20px 0;
   font-size: 30px;
 }
+
+@media only screen and (max-width: 1240px){
+    .tarjetaMenu {
+        width: 80%;
+
+}
 @media only screen and (max-width: 768px){
     .pest{font-size: 2vw;
 }
@@ -326,6 +338,8 @@ h4{
     margin: 0 auto;
     width: 75%;
 }
+
+
 
 }
 
