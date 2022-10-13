@@ -163,6 +163,7 @@ table td:nth-child(3){
     background:white;
     font-weight: 100;
     padding: 0% 0% 0% 0%;
+    text-align: center;
 }
 
 .tarjetaMenu{
@@ -271,4 +272,16 @@ table td:nth-child(3){
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+
+header{
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: 260px;
+}
+#alturaFooter{
+    height: 91px;
 }
