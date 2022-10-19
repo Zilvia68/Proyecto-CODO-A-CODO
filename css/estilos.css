@@ -13,6 +13,7 @@ body{
 header{
     background-color: rgb(199, 240, 240);
    width: 100%;
+   font-size: 0.8em;
    
 }
 
@@ -24,7 +25,7 @@ a{
  
  #slogan{
    font-family: Helena;
-   font-size: 5vw;
+   font-size: 4.5vw;
    color: rgb(26, 163, 26);
    padding-left: 2%;
    
@@ -38,14 +39,14 @@ a{
      color: rgb(34, 185, 34);
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      font-weight: bold;
-     font-size: 1em;
+     font-size: 1.8vw;
      text-decoration: none;
      padding: 3%;
  }
 
  h4{
     padding: 1%;
-    font-size: 2.5vw;
+    font-size: 2vw;
     padding-left: 2%;
  } 
 
@@ -62,6 +63,7 @@ a{
     font-size: 8vw;
     font-weight: 100;
     margin-right: 10%;
+    
 }
 
  #pestañas{
@@ -89,6 +91,7 @@ a{
     padding-right: 0%;
     float: left;
 }
+
 #imagenes{
     text-align: center;
 }
@@ -119,9 +122,9 @@ a{
  }
 
  .promo {
-     width: 50%;
+    width:  50%;
      padding: 2%;
-     flex-wrap: wrap;
+    
  }
 
  table {
@@ -132,19 +135,24 @@ a{
 
 
  table th {
-     font-size: 2vw;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 30px;
  }
 
  table td {
      border: 2px solid rgb(36, 207, 193);
-     font-size: 1em;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 30px;
+     
+     
 
  }
 
  table td:first-child {
      width: 10%;
      text-align: center;
-     font-size: 1vw;
+     font-size: 2em;
+     
  }
 
  table td:nth-child(2) {
@@ -154,6 +162,8 @@ a{
 
  table td:nth-child(3) {
      width: 25%;
+     font-size: 1.5em;
+     
  }
 
  table td img {
@@ -196,8 +206,9 @@ a{
 .tarjetaMenu{
     border-width: 10px;
     border-radius: 0.5vw;
-    border-color: black;
-    max-width:550px;
+    border: solid 1px;
+    width:45%;
+    height: 150px;
     margin: 1% 1% 1% 1%;
     background-color: rgb(199, 240, 240);
 }
@@ -205,34 +216,36 @@ a{
 .imagenesTarjetas{
     border-top-left-radius: 0.5vh;
     border-bottom-left-radius: 0.5vh;
-    max-height: 150px;
+    height: 150px;
     padding:0%;
     float: left;
+    width: 150px;
 }
 
 .titulosTarjetas{
-    font-family: Cambria;
-    font-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80%;
     text-align: left;
     margin-left: 10%;
     padding: 2% 0% 0% 0%;
     position: relative;
-    float: left
+   
 }
 
 .parrafosTarjetas{
-    font-family: Cambria;
-    font-size: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 65%;
     text-align: left;
     margin: -3% 0% 0% 0%;
 }
 
 .precio{
-    font-family: Cambria;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 60%;
     font-style:italic;
     margin: 2% 0% 0% 5%;
     float: left;
+    
 }
 
 .botonOrdenar{
@@ -265,11 +278,7 @@ a{
     z-index: 1;
 }
 
-.imagenesDerechaMenu{
-    max-width: 220px;
-    margin: 2% 0% 1% 35%;
-    border-radius: 40%; 
-}
+
 #abajo{
     background-color: black;
 
@@ -300,8 +309,6 @@ a{
   padding: 20px 0;
   font-size: 30px;
 }
-<<<<<<< HEAD
-
 header{
     width: 100%;
 }
@@ -313,5 +320,68 @@ iframe{
 #alturaFooter{
     height: 91px;
 }
-=======
->>>>>>> dd624eed79377d49783d9aaba70cf3017639c29c
+
+
+@media only screen and (max-width: 1240px){
+    .tarjetaMenu {
+        width: 80%;
+
+}
+@media only screen and (max-width: 768px){
+    .pest{font-size: 2vw;
+}
+.nosotros {
+    padding: 2%;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+h4{
+    font-size: 3vw;
+}
+#slogan {
+    
+    font-size: 6vw;
+    
+}
+.conten_promo {
+    display: inline;
+    
+}
+.promo{ 
+    margin: 0 auto;
+    width: 75%;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 320px){
+    .pest{
+        font-size: 3vw;
+        padding: 0.3%;
+    }
+        .nosotros {
+            padding: 2%;
+            font-size: 3.5vw;
+            text-align: justify;
+}
+h4{
+    font-size: 5vw;
+}
+#slogan {
+    font-size: 7vw;
+    
+}
+table td img {
+    width: 50px;
+}
+.promo{
+   margin: 0 auto;
+    width: 100%;
+}
+
+
